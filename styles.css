@@ -1,5 +1,5 @@
 body {
-  background-image: url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg);
+  background-color: black;
   font-family: sans-serif;
   padding: 20px;
 }
@@ -22,9 +22,9 @@ h1, h2, p {
   text-align: center;
 }
 
-.menu {
+.author {
   width: 200%;
-  background-color: burlywood;
+  background-color: white;
   margin-left: auto;
   margin-right: auto;
   padding: 20px;
@@ -51,22 +51,18 @@ h1, h2 {
   font-family: Impact, serif;
 }
 
-.item p {
+/*.item p {
   display: inline-block;
   margin-top: 5px;
   margin-bottom: 5px;
   font-size: 18px;
-}
+}*/
 
-.flavor, .dessert {
+.line {
   text-align: left;
   width: 75%;
 }
 
-.price {
-  text-align: right;
-  width: 25%;
-}
 
 /* FOOTER */
 
