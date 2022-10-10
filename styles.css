@@ -1,5 +1,5 @@
 body {
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(0, 0, 0);
   font-family: sans-serif;
   padding: 20px;
 }
@@ -28,12 +28,16 @@ h1, h2, p {
 }
 
 .author {
-  background-color: rgb(0 0 0);
- /* margin-left: auto;
+  background-image: url(https://cdn.hk01.com/di/media/images/dw/20220503/598221776203288576687042.jpeg/4-Da4DZToAxwkdfgnO9OG9P23Cdm5ealbUkTsG1JE7A?v=w1920r16_9);
+}
+.back {
+  background-color: rgb(255, 255, 255);
+  margin-left: auto;
   margin-right: auto;
   padding: 20px;
   max-width: 500px;
-  width: 200%;*/
+  width: 70%;
+  height: 100vh;
 }
 
 img {
