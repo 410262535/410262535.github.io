@@ -37,14 +37,13 @@ h1, h2, p {
   margin-right: auto;
   width: 80%;
   height: 100vh;
+  max-width: 1000px;
 }
 
 img {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width:150px;
-  height:150px
 }
 
 hr {
