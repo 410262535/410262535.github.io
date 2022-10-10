@@ -33,11 +33,11 @@ h1, h2, p {
 }
 .back {
   background-color: rgb(255, 255, 255);
+  width: 80%;
   margin-left: auto;
   margin-right: auto;
-  width: 80%;
-  height: 100vh;
-  max-width: 1000px;
+  padding: 20px;
+  max-width: 500px;
 }
 
 img {
