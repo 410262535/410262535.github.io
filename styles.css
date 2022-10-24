@@ -33,6 +33,12 @@ h1, p {
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: -999;
 }
 .back {
   background-color: rgb(255, 255, 255);
