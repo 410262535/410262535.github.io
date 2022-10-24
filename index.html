@@ -6,12 +6,21 @@
     <title>Ruby Lin's Page</title>
     <link href="styles.css" rel="stylesheet"/>
   </head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+    <script>
+      $(document).ready(function(){
+        $("#hide").click(function(){
+        $("p").hide();
+    });
+    $("#show").click(function(){
+        $("p").show();
+    });
+});
+</script>
   <body>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js">
-      $(document).ready(function() {
-        $("Ruby Lin").addClass("animated bounce");
-      });
-    </script>
+    <p>If you click on the "Hide" button, I will disappear.</p>
+    <button id="hide">Hide</button>
+    <button id="show">Show</button>
     <div class="author">
       <header>
         <h1>Ruby Lin</h1>
