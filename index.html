@@ -10,17 +10,14 @@
     <script>
       $(document).ready(function(){
         $("#hide").click(function(){
-        $("p").hide();
+          $("p").hide();
+        });
+        $("#show").click(function(){
+          $("p").show();
+        });
     });
-    $("#show").click(function(){
-        $("p").show();
-    });
-});
-</script>
+    </script>
   <body>
-    <p>If you click on the "Hide" button, I will disappear.</p>
-    <button id="hide">Hide</button>
-    <button id="show">Show</button>
     <div class="author">
       <header>
         <h1>Ruby Lin</h1>
@@ -31,6 +28,9 @@
       <main>
         <section>
           <img src="MiConv.com__E2nDLMYVIAU8mLk (1).jpg" alt="cat"/>
+          <p>按我隱藏</p>
+          <button id="hide">Hide</button>
+          <button id="show">Show</button>
           <h2>關於我</h2>
         <!--<article class="item">-->
           <ul>
