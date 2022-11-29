@@ -13,28 +13,6 @@
       $(function() {
         $('#spinner').fadeOut();
       })
-      var startTime = new Date().getTime();
-
-        window.onload = function(){
-    // 2. 计算时间差
-         var timeSpan = new Date().getTime() - startTime;
-    
-    // 3. 判断时差
-         if(timeSpan >= 8000) {
-
-        // 大于3秒结束动画
-
-
-          } else {
-
-        // 小于3秒用定时器延迟处理
-        setTimeout(function(){
-            //...
-        }, 8000 - timeSpan);
-
-    }
-     
-}
       $(document).ready(function(){
         $("#hide").click(function(){
           $("h2").hide();
