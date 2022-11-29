@@ -15,11 +15,17 @@
       })
       var startTime = new Date().getTime();
 
-window.onload = function(){
+        window.onload = function(){
     // 2. 计算时间差
-    var ti画
+         var timeSpan = new Date().getTime() - startTime;
+    
+    // 3. 判断时差
+         if(timeSpan >= 3000) {
 
-    } else {
+        // 大于3秒结束动画
+
+
+          } else {
 
         // 小于3秒用定时器延迟处理
         setTimeout(function(){
@@ -44,7 +50,7 @@ window.onload = function(){
     </script>
   <body> 
     <div id="spinner">
-      <video src="691333436.094218.mp4" controls></video>
+      <video src="691333436.094218.mp4"></video>
     </div>      
     <header>
         <h1>Ruby Lin</h1>
