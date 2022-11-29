@@ -20,7 +20,7 @@
          var timeSpan = new Date().getTime() - startTime;
     
     // 3. 判断时差
-         if(timeSpan >= 3000) {
+         if(timeSpan >= 8000) {
 
         // 大于3秒结束动画
 
@@ -30,7 +30,7 @@
         // 小于3秒用定时器延迟处理
         setTimeout(function(){
             //...
-        }, 3000 - timeSpan);
+        }, 8000 - timeSpan);
 
     }
      
