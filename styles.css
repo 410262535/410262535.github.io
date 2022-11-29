@@ -170,12 +170,3 @@ a:active {
         visibility: visible;
     }
 }
-body{
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-family: Helvetica;
-    background: #0f4c81;
-    overflow: hidden;
-}
