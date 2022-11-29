@@ -10,59 +10,12 @@ h1 {
   margin-bottom: 15px;
   color: rgb(255, 255, 255);
 }
-h1 span{
-    opacity:0;
-    display:inline-block;
-    animation:animate 1s linear forwards;
-}
 #spinner{
   position:fixed;
   z-index:9999999;
   width:100%;
   height:100%;
 }
-@keyframes animate{
-  0%{
-      opacity:0;
-      transform: rotateY(90deg);
-      filter: blur(10px);
-  }
-  100%{
-      opacity:1;
-      transform: rotateY(0deg);
-      filter: blur(0);
-  }
-}
-.test{
-  display:block;
-  position: absolute;
-  top:60%;
-  text-align: center; 
-  font-size: 1.8em;
-  letter-spacing: 0.2em;
-  color: #FF3300;
-  animation:myset 3s 1inear 1
-}
-.test2{
-  display:block;
-  position: absolute;
-  top:60%;
-  text-align: center; 
-  font-size: 1.8em;
-  letter-spacing: 0.2em;
-  color: #FF3300;
-  animation:myset 3s 1inear 1
-}
-@keyframes myset{
-  0%{
-      opacity: 0;
-      filter: blur(2px):
-      filter: drop-shadow(-15px 8px 2px #FF3300);
-}
-100%{
-opacity: 1;
-filter: blur(0);
-filter: drop-shadow(15px 8px 2px #FF3300)；
 h2 {
   font-size: 30px;
 }
