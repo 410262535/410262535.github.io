@@ -10,17 +10,6 @@
   
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
     <script>
-      $(window).bind(“load", function(){
-        loader()
-      });
-      function loader(){
-        var loader = $(“#loader");
-        loader.delay(1350).fadeOut(‘slow’);
-        setTimeout( function(){
-        loader.html(“);
-        $(“body").removeClass(“bbhidden");;
-        }, 2550)
-      };
       $(document).ready(function(){
         $("#hide").click(function(){
           $("h2").hide();
@@ -34,10 +23,7 @@
         $("show").addClass("animated shake");
     });
     </script>
-  <body class="bbhidden">
-    <div id="spinner" class="loader">
-      <video src="691333436.094218.mp4" width="100%" height="100%" autoplay muted></video>
-   </div>    
+  <body class="bbhidden"> 
     <div class="author">
       <header>
         <h1>Ruby Lin</h1>
