@@ -43,7 +43,7 @@ h1 span{
   color: #FF3300;
   animation:myset 3s 1inear 1
 }
-h2{
+.test2{
   display:block;
   position: absolute;
   top:60%;
