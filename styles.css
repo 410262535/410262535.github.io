@@ -15,11 +15,17 @@ h1 span{
     display:inline-block;
     animation:animate 1s linear forwards;
 }
+#spinner{
+  position:fixed;
+  z-index:9999999;
+  width:100%;
+  height:100%;
+}
 @keyframes animate{
   0%{
       opacity:0;
       transform: rotateY(90deg);
-      filter: blur(10px);
+      filter: blur(0);
   }
   100%{
       opacity:1;
